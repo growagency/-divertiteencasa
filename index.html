@@ -1,113 +1,40 @@
-<!DOCTYPE html><html lang="es"><!-- Meta Pixel Code --><head><script async="" src="js/fbevents.js"></script><script>
-!function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1713469689245348');
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1713469689245348&ev=PageView&noscript=1"
-    /></noscript>
-<!-- End Meta Pixel Code -->
-
-  
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ganamos</title>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilo.css">
-  </head>
-
-  <body>
-    <div class="logo-wrapper">
-      <img src="images/redlion-logo.png" alt="Logo Mega Cash" class="logo-img">
-    </div>
-
-    <div class="card">
-      <div class="main-text">
-        <p class="typing">🔥PEDI TU BONO DE BIENVENIDA🔥</p>
-        <p><span class="dorado-neon">BONO DEL 100%</span></p>
-      </div>
-
-      <input type="text" id="nombreUsuario" placeholder="Tu nombre" class="nombre-input">
-
-      <div class="botones-wrapper">
-        <button class="popup-button" id="whatsappButton">
-          <span>¡CREA TU USUARIO!</span>
-          <img src="images/WhatsApp.svg-2.webp" alt="Whatsapp">
-        </button>
-        <!--
-          Botón “Mira todo acá” eliminado
-          <button class="secondary-button popup-button" id="miraTodoButton">
-            Mira todo acá
-          </button>
-        -->
-      </div>
-    </div>
-
-    <div class="barra-juegos-slider">
-      <div class="scroll-content">
-        <!-- imágenes del carrusel… (igual que antes) -->
-        <img src="images/game.pragmaticPlayGatesOfOlympus.thumbnail.512x512_v4.png" alt="Slots">
-        <img src="images/game.pragmaticPlayGoldParty.thumbnail.512x512_v3.png" alt="Ruleta">
-        <img src="images/game.pragmaticPlayJokersJewels.thumbnail.512x512_v3.png" alt="Cartas">
-        <img src="images/game.pragmaticPlaySweetBonanza.thumbnail.512x512_v4.png" alt="Deportes">
-        <img src="images/game.pragmaticPlayCongoCash.thumbnail.512x512_v3.png" alt="Jackpot">
-        <!-- segundo set repetido para loop -->
-        <img src="images/game.mg9MasksOfFire.thumbnail.512x512_v3.png" alt="Slots">
-        <img src="images/game.pragmaticPlayGatesOfOlympus.thumbnail.512x512_v4.png" alt="Ruleta">
-        <img src="images/game.pragmaticPlayJokersJewels.thumbnail.512x512_v3.png" alt="Cartas">
-        <img src="images/game.pragmaticPlaySweetBonanza.thumbnail.512x512_v4.png" alt="Deportes">
-        <img src="images/game.pragmaticPlayCongoCash.thumbnail.512x512_v3.png" alt="Jackpot">
-      </div>
-    </div>
-
-    <div class="info-externa">
-      <p>RULETA EN VIVO - SLOTS - APUESTAS DEPORTIVAS</p>
-    </div>
-
-    <div class="metodos-pago">
-      <h2 class="titulo-pago">MÉTODOS DE PAGO</h2>
-      <div class="iconos-pago">
-        <img src="images/8043680.png" alt="Mastercard">
-        <img src="images/Mercado%20Pago.png" alt="MercadoPago">
-        <img src="images/logo-large.png" alt="Rapipago">
-        <img src="images/logo-cuenta-dni.png" alt="Pago Fácil">
-      </div>
-    </div>
-
-    <script>
-      document
-        .getElementById("whatsappButton")
-        .addEventListener("click", function () {
-          const nombre = document
-            .getElementById("nombreUsuario")
-            .value.trim();
-          const mensaje = nombre
-            ? `¡Buenas❗ Quiero crear un usuario 🎰, mi nombre es: ${nombre}`
-            : `¡Buenas❗ Quiero crear un usuario 🎰, mi nombre es:`;
-
-         fbq('track', 'Subscribe');
-
-          const telefono = "2234661452";
-          window.open(
-            `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`,
-            "_blank"
-          );
-        });
-
-      // Ya no hace falta este listener porque borramos el botón:
-      // document
-      //   .getElementById("miraTodoButton")
-      //   .addEventListener("click", function () {
-      //     window.open("https://Ganaencasa20.com", "_blank");
-      //   });
-    </script>
-  
-
-</body></html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirigiendo...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      text-align: center;
+      padding-top: 100px;
+    }
+    .loader {
+      margin-top: 20px;
+      border: 6px solid #ccc;
+      border-top: 6px solid #25D366;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+      display: inline-block;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+  <script>
+    setTimeout(function() {
+      window.location.href = "https://wa.me/5492234661452?text=Hola,%20quiero%20obtener%20mi%20bono%20del%2050%25%20🎰";
+    }, 500); // 2000 milisegundos = 2 segundos
+  </script>
+</head>
+<body>
+  <h2>Un momento… </h2>
+  <div class="loader"></div>
+</body>
+</html>
